@@ -9,7 +9,6 @@ import {
   Typography,
   Chip,
   Stack,
-  Paper,
   Box,
 } from "@mui/material";
 
