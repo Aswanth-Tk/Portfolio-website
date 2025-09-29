@@ -27,47 +27,46 @@ const personalProjects: Project[] = [
       "My personal portfolio built with React, TypeScript, and Material-UI showcasing my projects and skills.",
     tech: ["React", "TypeScript", "Material-UI"],
     github: "https://github.com/yourusername/portfolio",
-    live: "https://yourportfolio.com",
   },
   {
-    title: "Task Manager",
+    title: "E-Commerce website",
     description:
-      "A task management web app with CRUD operations, built with React and Firebase.",
+      "I created product catalogs, payments, validations, and UI with JavaScript and CSS.",
     tech: ["React", "Firebase", "Tailwind"],
-    github: "https://github.com/yourusername/task-manager",
+    github: "https://github.com/Aswanth-Tk/E-commerce-website",
     live: "https://yourportfolio.com",
   },
   {
-    title: "Weather App",
+    title: "Movie App",
     description:
-      "Weather forecasting app using OpenWeatherMap API with geolocation support.",
+      "I built search, filter, and movie display using APIs with React components.",
     tech: ["React", "API", "Bootstrap"],
-    github: "https://github.com/yourusername/weather-app",
+    github: "https://github.com/Aswanth-Tk/Movie-App",
     live: "https://yourportfolio.com",
   },
   {
-    title: "Calculator App",
-    description: "A simple calculator web app built with React and Material-UI.",
+    title: "Product Management System",
+    description: "I developed CRUD operations for products using React and state management libraries.",
     tech: ["React", "Material-UI"],
-    github: "https://github.com/yourusername/calculator-app",
+    github: "https://github.com/Aswanth-Tk/Product-Management-System",
     live: "https://yourportfolio.com",
   },
   {
-    title: "Todo App",
-    description: "Manage tasks with this easy-to-use todo application.",
+    title: "Memory Game",
+    description: "I developed a memory card game with flipping, matching, and React logic.",
     tech: ["React", "TypeScript", "Tailwind"],
-    github: "https://github.com/yourusername/todo-app",
-    live: "https://yourportfolio.com",
+    github: "https://github.com/Aswanth-Tk/Memory-game",
+    live: "https://memory-game-jet-rho.vercel.app/",
   },
 ];
 
 const companyProjects: Project[] = [
   {
-    title: "Healthcare Appointment System",
+    title: "Humigy",
     description:
       "Developed scheduling and patient management features for a healthcare web application.",
-    tech: ["React", "TypeScript", "Material-UI", "Node.js"],
-    live: "https://yourportfolio.com",
+    tech: ["React", "TypeScript", "Material-UI"],
+    live: "https://app.humigy.com/",
   },
 ];
 

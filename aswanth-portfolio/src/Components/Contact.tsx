@@ -147,17 +147,17 @@ const Contact: React.FC = () => {
           </Typography>
           <Stack direction="row" alignItems="center" spacing={2}>
             <Email color="primary" />
-            <Typography variant="body1">yourname@email.com</Typography>
+            <Typography variant="body1">aswanthachu1273@gmail.com</Typography>
           </Stack>
           <Stack direction="row" alignItems="center" spacing={2}>
             <Phone color="primary" />
-            <Typography variant="body1">+91 98765 43210</Typography>
+            <Typography variant="body1">+91 9207094370</Typography>
           </Stack>
           <Stack direction="row" alignItems="center" spacing={2}>
             <LinkedIn color="primary" />
             <Typography
               component="a"
-              href="https://www.linkedin.com/in/yourlinkedin"
+              href="https://www.linkedin.com/in/aswanth-t-k-"
               target="_blank"
               rel="noopener noreferrer"
               sx={{
@@ -166,7 +166,7 @@ const Contact: React.FC = () => {
                 fontWeight: 500,
               }}
             >
-              linkedin.com/in/yourlinkedin
+              linkedin.com/in/aswanth-t-k-
             </Typography>
           </Stack>
         </Box>
