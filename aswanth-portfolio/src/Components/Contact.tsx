@@ -110,7 +110,7 @@ const Contact: React.FC = () => {
             />
             <TextField
               label="Message"
-              name="message"
+              name="user_message"
               fullWidth
               required
               multiline
