@@ -151,7 +151,7 @@ const Contact: React.FC = () => {
           </Stack>
           <Stack direction="row" alignItems="center" spacing={2}>
             <Phone color="primary" />
-            <Typography variant="body1">+91 9207094370</Typography>
+            <Typography variant="body1">+91 92070 94370</Typography>
           </Stack>
           <Stack direction="row" alignItems="center" spacing={2}>
             <LinkedIn color="primary" />
