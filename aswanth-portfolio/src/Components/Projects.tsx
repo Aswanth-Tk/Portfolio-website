@@ -26,7 +26,7 @@ const personalProjects: Project[] = [
     description:
       "My personal portfolio built with React, TypeScript, and Material-UI showcasing my projects and skills.",
     tech: ["React", "TypeScript", "Material-UI"],
-    github: "https://github.com/yourusername/portfolio",
+    github: "https://github.com/Aswanth-Tk/Portfolio-website",
   },
   {
     title: "E-Commerce website",

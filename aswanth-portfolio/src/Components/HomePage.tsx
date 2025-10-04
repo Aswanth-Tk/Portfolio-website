@@ -46,7 +46,7 @@ const HomePage: React.FC = () => {
         <Button
           variant="contained"
           color="primary"
-          href="/projects"
+          href="projects"
           sx={{ px: 4, py: 1.2 }}
         >
           View Projects
@@ -54,7 +54,7 @@ const HomePage: React.FC = () => {
         <Button
           variant="outlined"
           color="primary"
-          href="/contact"
+          href="contact"
           sx={{ px: 4, py: 1.2 }}
         >
           Contact Me
