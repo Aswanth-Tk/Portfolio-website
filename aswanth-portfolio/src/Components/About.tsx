@@ -2,6 +2,7 @@
 import React from "react";
 import { Box, Typography, Container, Button, Chip, Stack } from "@mui/material";
 import { Grid } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const About: React.FC = () => {
   const skills = [
@@ -52,7 +53,8 @@ const About: React.FC = () => {
               <Button
                 variant="contained"
                 color="primary"
-                href="#projects"
+                component={Link}
+                to="/projects"
                 sx={{ px: 4, py: 1.2 }}
               >
                 View Projects
@@ -60,7 +62,8 @@ const About: React.FC = () => {
               <Button
                 variant="outlined"
                 color="primary"
-                href="#contact"
+                component={Link}
+                to="/contact"
                 sx={{ px: 4, py: 1.2 }}
               >
                 Contact Me
