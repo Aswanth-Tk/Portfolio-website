@@ -6,19 +6,29 @@ import { Link } from "react-router-dom";
 const HomePage: React.FC = () => {
   return (
     <Box
-      id="home"
-      sx={{
-        minHeight: "100vh",
-        width: "100vw", // 👈 full viewport width
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        textAlign: "center",
-        px: 2,
-        backgroundColor: "background.default",
-      }}
-    >
+  id="home"
+  sx={{
+    minHeight: "100vh",
+    width: "100vw",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    textAlign: "center",
+    px: 2,
+
+    backgroundImage: `
+      linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+      ),
+      url('/bg-image.jpg')
+    `,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  }}
+>
       {/* Greeting */}
       <Typography variant="h4" color="text.secondary" gutterBottom>
         Hi, I am
