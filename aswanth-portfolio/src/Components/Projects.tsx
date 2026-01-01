@@ -34,7 +34,7 @@ const personalProjects: Project[] = [
       "I created product catalogs, payments, validations, and UI with JavaScript and CSS.",
     tech: ["React", "React-bootstrap", "css"],
     github: "https://github.com/Aswanth-Tk/E-commerce-website",
-    live: "https://yourportfolio.com",
+    live: "https://e-commerce-website-nu-virid.vercel.app",
   },
   {
     title: "Movie App",
@@ -42,14 +42,14 @@ const personalProjects: Project[] = [
       "I built search, filter, and movie display features using APIs with React components.",
     tech: ["React", "React-Bootstrap"],
     github: "https://github.com/Aswanth-Tk/Movie-App",
-    live: "https://yourportfolio.com",
+    live: "https://movie-app-chi-two-23.vercel.app",
   },
   {
     title: "Product Management System",
     description: "I developed CRUD operations for products using React and state management libraries.",
     tech: ["React", "Material-UI", 'React-Bootstrap'],
     github: "https://github.com/Aswanth-Tk/Product-Management-System",
-    live: "https://yourportfolio.com",
+    live: "https://product-management-system-henna.vercel.app",
   },
   {
     title: "Memory Game",
