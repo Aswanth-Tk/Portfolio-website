@@ -45,7 +45,7 @@ const Contact: React.FC = () => {
       elevation={0}
       sx={{
         minHeight: "100vh",
-        minWidth:'100vw',
+        minWidth: '100vw',
         width: "100%",
         py: 8,
         backgroundColor: "background.default",
@@ -147,11 +147,29 @@ const Contact: React.FC = () => {
           </Typography>
           <Stack direction="row" alignItems="center" spacing={2}>
             <Email color="primary" />
-            <Typography variant="body1">aswanthachu1273@gmail.com</Typography>
+            <Typography variant="body1"
+              component="a"
+              href="mailto:aswanthachu1273@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              sx={{
+                textDecoration: "none",
+                color: "primary.main",
+                fontWeight: 500,
+              }}
+            >aswanthachu1273@gmail.com</Typography>
           </Stack>
           <Stack direction="row" alignItems="center" spacing={2}>
             <Phone color="primary" />
-            <Typography variant="body1">+91 92070 94370</Typography>
+            <Typography variant="body1"
+              component='a'
+              href="tel:+919207094370"
+              sx={{
+                textDecoration: "none",
+                color: "primary.main",
+                fontWeight: 500,
+              }}
+            >+91 92070 94370</Typography>
           </Stack>
           <Stack direction="row" alignItems="center" spacing={2}>
             <LinkedIn color="primary" />
