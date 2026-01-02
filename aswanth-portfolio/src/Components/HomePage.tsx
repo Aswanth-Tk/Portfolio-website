@@ -2,6 +2,7 @@
 import React from "react";
 import { Box, Typography, Button } from "@mui/material";
 import { Link } from "react-router-dom";
+import DownloadIcon from "@mui/icons-material/Download";
 
 const HomePage: React.FC = () => {
   return (
@@ -71,6 +72,15 @@ const HomePage: React.FC = () => {
           sx={{ px: 4, py: 1.2 }}
         >
           Contact Me
+        </Button>
+        <Button
+          variant="outlined"
+          color="primary"
+          startIcon={<DownloadIcon />}
+          href="/ASWANTH_TK.pdf"
+          sx={{ px: 4, py: 1.2 }}
+        >
+          Download Resume
         </Button>
       </Box>
     </Box>
