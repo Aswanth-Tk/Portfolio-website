@@ -79,6 +79,7 @@ const HomePage: React.FC = () => {
           startIcon={<DownloadIcon />}
           href="/ASWANTH_TK.pdf"
           sx={{ px: 4, py: 1.2 }}
+          download
         >
           Download Resume
         </Button>
